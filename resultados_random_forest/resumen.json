@@ -1,0 +1,44 @@
+{
+  "archivo": "insurance_claims_limpio.csv",
+  "filas": 1000,
+  "semilla": 42,
+  "particion": "80% entrenamiento / 20% prueba, estratificada aleatoria",
+  "clase_positiva": "fraud_reported = 1",
+  "umbral_ajustado": 0.30892002461285695,
+  "criterio_umbral": "F1 máximo en predicciones fuera de pliegue del entrenamiento",
+  "umbral_referencia": 0.5,
+  "n_entrenamiento": 800,
+  "n_prueba": 200,
+  "fraudes_entrenamiento": 198,
+  "fraudes_prueba": 49,
+  "validacion": "StratifiedKFold 5 pliegues, selección por AUC media",
+  "mejores_hiperparametros": {
+    "model__class_weight": null,
+    "model__max_depth": 8,
+    "model__min_samples_leaf": 1
+  },
+  "auc_validacion_media": 0.8573688811188811,
+  "segundos_busqueda_hiperparametros": 65.84,
+  "segundos_entrenamiento_total": 68.46,
+  "matriz_confusion_prueba_umbral_ajustado": [
+    [
+      127,
+      24
+    ],
+    [
+      7,
+      42
+    ]
+  ],
+  "matriz_confusion_prueba_umbral_0_5": [
+    [
+      144,
+      7
+    ],
+    [
+      45,
+      4
+    ]
+  ],
+  "version_sklearn": "1.8.0"
+}

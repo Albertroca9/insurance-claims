@@ -1,0 +1,5 @@
+modelo,conjunto,umbral,n,auc,precision,recall,f1
+Random Forest,entrenamiento,0.308920,800,0.991694,0.708487,0.969697,0.818763
+Random Forest,prueba,0.308920,200,0.856602,0.636364,0.857143,0.730435
+Random Forest,entrenamiento,0.500000,800,0.991694,1.000000,0.863636,0.926829
+Random Forest,prueba,0.500000,200,0.856602,0.363636,0.081633,0.133333

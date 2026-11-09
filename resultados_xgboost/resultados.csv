@@ -1,0 +1,7 @@
+Modelo,Set,AUC,Precision,Recall,F1,Accuracy
+XGBoost,Entrenamiento,0.9801,0.6679,0.8939,0.7646,0.8638
+XGBoost,Prueba,0.8227,0.6364,0.8571,0.7304,0.8450
+XGBoost,Brecha (entr. - prueba),0.1574,0.0316,0.0368,0.0341,0.0188
+Logistica 2 variables,Entrenamiento,0.9144,0.6531,0.8939,0.7548,0.8562
+Logistica 2 variables,Prueba,0.8444,0.6364,0.8571,0.7304,0.8450
+Logistica 2 variables,Brecha (entr. - prueba),0.0699,0.0168,0.0368,0.0244,0.0112
